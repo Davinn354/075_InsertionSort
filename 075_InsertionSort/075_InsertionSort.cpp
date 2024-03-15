@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int arr, n, i ;
 void input() { //procedur untuk input
 
     while (true) {
@@ -24,7 +25,7 @@ void input() { //procedur untuk input
     }
 }
 
-void insertionSort() {
+void InsertionSort() {
 
     int i, n, temp, j;
     int arr[12];
@@ -71,12 +72,6 @@ int main()
     InsertionSort();
     display();
 
-    system("pause");
-    return 0;
-}
-
-int main()
-{
     system("pause");
     return 0;
 }
