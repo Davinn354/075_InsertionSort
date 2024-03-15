@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int arr, n, i ;
+int arr[20], n;
 void input() { //procedur untuk input
 
     while (true) {
